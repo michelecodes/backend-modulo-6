@@ -1,0 +1,34 @@
+algoritmo Acordar
+
+var
+   horaAtual, horaAcordar: inteiro
+
+inicio
+   // Passo 1: Definir a hora de acordar
+   escreva("Informe a hora que deseja acordar: ")
+   leia(horaAcordar)
+
+   // Passo 2: Iniciar o loop principal
+   enquanto (horaAtual <> horaAcordar) faca
+      // Passo 3: Verificar a hora atual
+      escreva("Informe a hora atual: ")
+      leia(horaAtual)
+
+      // Passo 4: Se a hora atual for igual à hora de acordar
+      se (horaAtual = horaAcordar) entao
+         // Passo 5: Imprimir mensagem de despertar
+         escreva("Hora de acordar! Bom dia!")
+
+         // Passo 6: Reproduzir um som de despertador (opcional)
+         // (Código para reproduzir um som, se necessário)
+
+         // Passo 7: Encerrar o loop principal
+      senao
+         // Passo 8: Senão
+         // Passo 9: Aguardar um curto período de tempo (por exemplo, 1 minuto)
+         escreva("Ainda não é hora de acordar. Aguarde um momento.")
+         // (Código para aguardar um período de tempo, se necessário)
+      fimse
+   fimenquanto
+
+fimalgoritmo
