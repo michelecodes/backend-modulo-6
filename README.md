@@ -92,7 +92,7 @@ Neste exemplo, a classe Carro tem atributos privados (modelo, cor e ano), um con
 - Procedural: O código é estruturado em torno de procedimentos, funções ou rotinas. As operações e manipulações de dados são o foco principal.
 - Orientada a Objetos: O código é estruturado em torno de classes e objetos. As entidades do mundo real são modeladas como objetos, que encapsulam dados e comportamentos.
 
-### Exemplo em Java (Procedural):
+Exemplo em Java (Procedural):
             java
             Copy code
             // Procedural
@@ -105,7 +105,7 @@ Neste exemplo, a classe Carro tem atributos privados (modelo, cor e ano), um con
                     return a - b;
                 } }
 
-### Exemplo em Java (Orientada a Objetos):
+Exemplo em Java (Orientada a Objetos):
 
             java
             Copy code
@@ -124,7 +124,7 @@ Neste exemplo, a classe Carro tem atributos privados (modelo, cor e ano), um con
 - Procedural: Não há uma noção clara de encapsulamento. Dados e funções são geralmente globais ou pertencem a estruturas de dados.
 - Orientada a Objetos: Os objetos encapsulam dados e comportamentos, controlando o acesso aos mesmos por meio de modificadores de acesso (como private, public, etc.).
 
-### Exemplo em Java (Orientada a Objetos):
+Exemplo em Java (Orientada a Objetos):
 
             java
             Copy code
@@ -143,7 +143,7 @@ Neste exemplo, a classe Carro tem atributos privados (modelo, cor e ano), um con
 - Procedural: Geralmente não há suporte direto para herança de código.
 - Orientada a Objetos: Suporta herança, permitindo que uma classe herde atributos e métodos de outra classe.
 
-### Exemplo em Java (Orientada a Objetos):
+Exemplo em Java (Orientada a Objetos):
 
             java
             Copy code
@@ -162,7 +162,7 @@ Neste exemplo, a classe Carro tem atributos privados (modelo, cor e ano), um con
 - Procedural: Geralmente, não há suporte para polimorfismo.
 - Orientada a Objetos: Suporta polimorfismo, onde um objeto pode ser tratado como um objeto de sua classe base.
 
-### Exemplo em Java (Orientada a Objetos):
+Exemplo em Java (Orientada a Objetos):
 
             java
             Copy code
