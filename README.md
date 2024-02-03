@@ -94,9 +94,7 @@ Neste exemplo, a classe Carro tem atributos privados (modelo, cor e ano), um con
 - Orientada a Objetos: O código é estruturado em torno de classes e objetos. As entidades do mundo real são modeladas como objetos, que encapsulam dados e comportamentos.
 
 Exemplo em Java (Procedural):
-            java
-            Copy code
-            // Procedural
+
             public class Calculadora {
                 public static int somar(int a, int b) {
                     return a + b;
@@ -108,9 +106,6 @@ Exemplo em Java (Procedural):
 
 Exemplo em Java (Orientada a Objetos):
 
-            java
-            Copy code
-            // Orientada a Objetos
             public class Calculadora {
                 public int somar(int a, int b) {
                     return a + b;
@@ -127,8 +122,6 @@ Exemplo em Java (Orientada a Objetos):
 
 Exemplo em Java (Orientada a Objetos):
 
-            java
-            Copy code
             public class Carro {
                 private String modelo;
             
@@ -146,8 +139,6 @@ Exemplo em Java (Orientada a Objetos):
 
 Exemplo em Java (Orientada a Objetos):
 
-            java
-            Copy code
             public class Animal {
                 public void emitirSom() {
                     System.out.println("Som do animal");
@@ -165,8 +156,6 @@ Exemplo em Java (Orientada a Objetos):
 
 Exemplo em Java (Orientada a Objetos):
 
-            java
-            Copy code
             public interface Animal {
                 void fazerSom();
             }
