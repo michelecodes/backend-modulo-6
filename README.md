@@ -1,5 +1,6 @@
 # Módulo 6
-Conteudo de apoio:
+Conteudo de apoio: [BackEndJava m06_supportmaterial01.pdf](https://github.com/michelecodes/backend-modulo-6/files/14149653/BackEndJava.m06_supportmaterial01.pdf)
+
 # Exercicio
 ## Programação procedual
 A programação procedural é um paradigma de programação que se baseia na execução sequencial de instruções, organizadas em procedimentos ou funções. Nesse estilo de programação, o código é estruturado de maneira linear, com ênfase nas operações e manipulações de dados. Em geral, as linguagens de programação que seguem esse paradigma utilizam procedimentos, funções ou métodos para organizar o código em blocos de instruções reutilizáveis.
