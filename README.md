@@ -23,8 +23,7 @@ Um exemplo de programação procedural em Java pode ser visto abaixo. Neste exem
       
               // Exibindo o resultado
               System.out.println("A soma de " + numero1 + " e " + numero2 + " é: " + resultado);
-          }
-      }
+          } }
 
 Neste exemplo, a função somar é definida para realizar a operação de adição de dois números inteiros. O método main é o ponto de entrada do programa, onde dois números são definidos, a função somar é chamada com esses números, e o resultado é exibido na saída padrão.
 
@@ -82,7 +81,104 @@ Aqui está um exemplo simples em Java para ilustrar a programação orientada a 
         // Exibindo informações atualizadas do carro
         System.out.println("\nInformações atualizadas do carro:");
         meuCarro.exibirInformacoes();
-    }
-}
+    } }
 
 Neste exemplo, a classe Carro tem atributos privados (modelo, cor e ano), um construtor para inicializar esses atributos, métodos de acesso para modificar os atributos e um método exibirInformacoes para mostrar detalhes do carro. No método principal (main), criamos uma instância da classe Carro, modificamos alguns atributos e exibimos as informações do carro antes e depois das modificações.
+
+## Principais diferenças entre programação procedural e programação orientada a objeto
+
+### Organização do Código:
+
+- Procedural: O código é estruturado em torno de procedimentos, funções ou rotinas. As operações e manipulações de dados são o foco principal.
+- Orientada a Objetos: O código é estruturado em torno de classes e objetos. As entidades do mundo real são modeladas como objetos, que encapsulam dados e comportamentos.
+
+### Exemplo em Java (Procedural):
+            java
+            Copy code
+            // Procedural
+            public class Calculadora {
+                public static int somar(int a, int b) {
+                    return a + b;
+                }
+            
+                public static int subtrair(int a, int b) {
+                    return a - b;
+                } }
+
+### Exemplo em Java (Orientada a Objetos):
+
+            java
+            Copy code
+            // Orientada a Objetos
+            public class Calculadora {
+                public int somar(int a, int b) {
+                    return a + b;
+                }
+            
+                public int subtrair(int a, int b) {
+                    return a - b;
+                } }
+    
+### Encapsulamento:
+
+- Procedural: Não há uma noção clara de encapsulamento. Dados e funções são geralmente globais ou pertencem a estruturas de dados.
+- Orientada a Objetos: Os objetos encapsulam dados e comportamentos, controlando o acesso aos mesmos por meio de modificadores de acesso (como private, public, etc.).
+
+### Exemplo em Java (Orientada a Objetos):
+
+            java
+            Copy code
+            public class Carro {
+                private String modelo;
+            
+                public String getModelo() {
+                    return modelo;
+                }
+            
+                public void setModelo(String novoModelo) {
+                    this.modelo = novoModelo;
+                } }
+### Herança:
+
+- Procedural: Geralmente não há suporte direto para herança de código.
+- Orientada a Objetos: Suporta herança, permitindo que uma classe herde atributos e métodos de outra classe.
+
+### Exemplo em Java (Orientada a Objetos):
+
+            java
+            Copy code
+            public class Animal {
+                public void emitirSom() {
+                    System.out.println("Som do animal");
+                }
+            }
+            
+            public class Cachorro extends Animal {
+                // Esta classe herda o método emitirSom da classe Animal
+            }
+
+### Polimorfismo:
+
+- Procedural: Geralmente, não há suporte para polimorfismo.
+- Orientada a Objetos: Suporta polimorfismo, onde um objeto pode ser tratado como um objeto de sua classe base.
+
+### Exemplo em Java (Orientada a Objetos):
+
+            java
+            Copy code
+            public interface Animal {
+                void fazerSom();
+            }
+            
+            public class Cachorro implements Animal {
+                @Override
+                public void fazerSom() {
+                    System.out.println("Latindo");
+                }
+            }
+            
+            public class Gato implements Animal {
+                @Override
+                public void fazerSom() {
+                    System.out.println("Miando");
+                } }
